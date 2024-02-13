@@ -112,6 +112,7 @@ export default function Home() {
                   }}
                   placeholder="Enter your password"
                   name="password"
+                  
                 />
                 {errors.password && touched.password ? (
                   <div style={{color:"red", marginTop:10}}>{errors.password}</div>
