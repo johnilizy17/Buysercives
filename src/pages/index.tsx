@@ -45,7 +45,7 @@ export default function Home() {
         padding="2.25rem"
         marginBottom="12px"
         flexDir="column"
-        h="516px"
+        h="536px"
         justifyContent="start"
       >
         <Img h="22px" src="../favicon.ico" />
@@ -130,7 +130,7 @@ export default function Home() {
                       padding: "0.45rem 0.9rem",
                     }}  
                   >
-                    <IconButton
+                    <Center
                       onClick={() => {
                         setDisable(!disable);
                       }}
@@ -157,7 +157,7 @@ export default function Home() {
                           <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0" />
                         </svg>
                       )}
-                    </IconButton>
+                    </Center>
                   </Center>
                 </Flex>
                 {errors.password && touched.password ? (
